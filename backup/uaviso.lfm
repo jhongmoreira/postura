@@ -1,0 +1,26 @@
+object Form2: TForm2
+  Left = 522
+  Height = 233
+  Top = 292
+  Width = 404
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'Form2'
+  ClientHeight = 233
+  ClientWidth = 404
+  FormStyle = fsStayOnTop
+  Position = poScreenCenter
+  LCLVersion = '2.2.6.0'
+  object BitBtn1: TBitBtn
+    Left = 313
+    Height = 30
+    Top = 190
+    Width = 75
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 0
+  end
+end
