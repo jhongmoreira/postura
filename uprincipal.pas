@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls,
-  Buttons, Menus, uAviso, IniFiles;
+  Buttons, Menus, JvStringHolder, uAviso, IniFiles;
 
 type
 
@@ -28,7 +28,6 @@ type
     procedure FormCreate(Sender: TObject);
     procedure MenuItem1Click(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
-    procedure Timer2Timer(Sender: TObject);
     procedure TrayIcon1DblClick(Sender: TObject);
   private
 
@@ -52,10 +51,6 @@ begin
      labelV.Caption:= TimeToStr(now);
 end;
 
-procedure TForm1.Timer2Timer(Sender: TObject);
-begin
-end;
-
 procedure TForm1.FormClose(Sender: TObject; var CloseAction: TCloseAction);
 begin
    Form1.Hide;
@@ -67,12 +62,15 @@ procedure TForm1.btnTempoSalvarClick(Sender: TObject);
   var minuto : String;
   var calculo: Integer;
 begin
-  PosturaINI := TIniFile.Create('./config.ini');
-  minuto:= txtTempo.Text;
-  calculo := StrToInt(minuto)*60000;
-  PosturaINI.WriteString('Config', 'Time', IntToStr(calculo));
-  Timer1.Interval := calculo;
-
+   try
+     PosturaINI := TIniFile.Create('./config.ini');
+     minuto:= txtTempo.Text;
+     calculo := StrToInt(minuto)*60000;
+     PosturaINI.WriteString('Config', 'Time', IntToStr(calculo));
+     Timer1.Interval := calculo;
+   finally
+     ShowMessage('Informações Salvas');
+   end;
 end;
 
 procedure TForm1.FormCreate(Sender: TObject);

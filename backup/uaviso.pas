@@ -5,7 +5,8 @@ unit uAviso;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Buttons;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Buttons,
+  ExtCtrls;
 
 type
 
@@ -13,6 +14,9 @@ type
 
   TForm2 = class(TForm)
     BitBtn1: TBitBtn;
+    Image1: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
     procedure BitBtn1Click(Sender: TObject);
   private
 

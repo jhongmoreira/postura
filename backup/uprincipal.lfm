@@ -1,12 +1,12 @@
 object Form1: TForm1
   Left = 435
-  Height = 103
+  Height = 105
   Top = 251
   Width = 241
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'Postura Correta'
-  ClientHeight = 103
+  ClientHeight = 105
   ClientWidth = 241
   OnClose = FormClose
   OnCreate = FormCreate
