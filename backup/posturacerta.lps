@@ -8,9 +8,10 @@
       <Unit>
         <Filename Value="posturacerta.lpr"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="4"/>
-        <CursorPos X="46" Y="17"/>
+        <TopLine Value="24"/>
+        <CursorPos X="40" Y="43"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
@@ -21,9 +22,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uPrincipal"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="42"/>
-        <CursorPos X="53" Y="51"/>
+        <CursorPos X="20" Y="8"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -51,22 +50,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="posturacerta.lpr"/>
-        <Caret Line="25" Column="47" TopLine="24"/>
-      </Position>
-      <Position>
-        <Filename Value="posturacerta.lpr"/>
-        <Caret Line="19" Column="25" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="posturacerta.lpr"/>
-        <Caret Line="18" TopLine="7"/>
-      </Position>
-      <Position>
-        <Filename Value="posturacerta.lpr"/>
-        <Caret Line="13" Column="33"/>
-      </Position>
       <Position>
         <Filename Value="posturacerta.lpr"/>
         <Caret Line="15" Column="14"/>
@@ -170,6 +153,22 @@
       <Position>
         <Filename Value="uprincipal.pas"/>
         <Caret Line="54" Column="54" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="posturacerta.lpr"/>
+        <Caret Line="23" Column="72" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="posturacerta.lpr"/>
+        <Caret Line="12" Column="25" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="posturacerta.lpr"/>
+        <Caret Line="51" Column="49" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="posturacerta.lpr"/>
+        <Caret Line="12" Column="15"/>
       </Position>
     </JumpHistory>
     <RunParams>
